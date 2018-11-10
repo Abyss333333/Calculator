@@ -1,0 +1,103 @@
+
+body{
+    position:relative;
+    left: 600px;
+    top:-30px;
+    background-image: url("https://www.isppainting.com/wp-content/uploads/2016/07/Plain-design-pattern-dark-background-image-HD-resolution-latest-pack.jpg");
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: firebrick;
+    font-weight: bold;
+    opacity:0.8;
+    
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.bar{
+    height:140px;
+    width: 558px;
+    border: 4px outset red;
+    margin-bottom: 6px;
+    text-align: right;
+    line-height:130px;
+    color: crimson;
+    border-radius: 15px;
+    font-size: 50px;
+    background-color:black;
+    opacity:0.8;
+
+    
+}
+
+.display_bar{
+    width:458px;
+    border :0.5px double red;
+    border-style: none none none double;
+    float:right;
+    height:140px;
+    margin: 0px 0px 0px 0px;
+    overflow:auto;
+}
+
+.bar button{
+    font-size: 30px;
+    color: darkred;
+    background-color: black;
+}
+
+.Backspace, .clear{
+    width: 90px;
+    height:65px;
+    
+    border-radius: 5px;
+    margin-left:5px;
+    
+    border: 1px inset red;
+    
+}
+
+.numbers button:hover{
+    color:red;
+    font-weight: bolder;
+}
+
+.operators button:hover{
+    color:red;
+    font-weight: bolder;
+}
+
+.bar button:hover{
+    color:orangered;
+    font-weight: bolder;
+}
+
+.grids button{
+    border-radius: 5px;
+    margin: 1px 1px 1px 1px;
+
+    font-size: 50px;
+    
+    background-color: black;
+    border:4px outset red;
+}
+
+.numbers button{
+    color:firebrick;
+}
+
+.operators button{
+    color: salmon;
+}
+
+.Backspace{
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+
